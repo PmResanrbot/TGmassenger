@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '255017796:AAEKboV88-urAEnk1j2pjm82oecozl7GZjE');
+define('BOT_TOKEN', '209166752:AAGyFFYTnpHldXUXC5l8Gbcr0KN8cT6UVkw');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -120,7 +120,7 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 100096055;
+    $admin = 32347781;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
@@ -132,10 +132,10 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=TGmassengerBot)
+کانلا ما  👈        [PvResan_RBot](https://telegram.me/joinchat/CsZIeUDzuowsr7kTYbmhkA)
 
 هر نفر = یک ربات ✖️
-ربات دوم = 4000ت ✔️
+ربات دوم = 5000ت ✔️
 🤖 @TGMassengerBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
@@ -147,7 +147,7 @@ $pmembersid= explode("\n",$txxt);
 ";
     	file_put_contents('pmembers.txt',$aaddd);
 }
-        if($chat_id == 100096055)
+        if($chat_id == 127861645)
         {
           if(!file_exists('tokens.txt')){
         file_put_contents('tokens.txt',"");
@@ -200,7 +200,7 @@ $pmembersid= explode("\n",$txxt);
         $phptext = str_replace("100096055",$chat_id,$phptext);
         file_put_contents($id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://s3pvresan-vpnnariman.rhcloud.com/'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=http://pvresanbot-amirrramh.rhcloud.com/'.$chat_id.'/pvresan.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات شما با مـوفقیت آپدیت شد ♻️"));
 
 
@@ -240,7 +240,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=TGMassengerbot
+ https://telegram.me/storebot?start=pvresan_rbot
 .";
     
     $bot_url    = "255017796:AAEKboV88-urAEnk1j2pjm82oecozl7GZjE"; 
@@ -272,10 +272,10 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "👾 شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 هر نفر = یک ربات ✖
-ربات دوم = 4000ت ✔️
+ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @Kiarash_Gh14"));
+🚀 @PvResanR0bot"));
       }
     }
       
@@ -320,11 +320,11 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://s3pvresan-vpnnariman.rhcloud.com/'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=http://pvresanbot-amirrramh.rhcloud.com/'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=tgmassengerBot
+ https://telegram.me/storebot?start=pvresan_rbot
 .";
     
     $bot_url    = "255017796:AAEKboV88-urAEnk1j2pjm82oecozl7GZjE"; 
